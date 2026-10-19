@@ -1,4 +1,4 @@
-# Application Board
+# <img src="src/app/icon.svg" width="30" height="30" alt="" align="top"> Application Board
 
 A local board for deciding which **2027 internship and new-grad roles** (SWE, SRE/infra, data, quant) to apply to today, and for tracking what you sent. It gathers offers from public trackers, reads each posting and checks it against your two PDF CVs: whether you are eligible, how well you fit, which CV to send, what it pays, which visa you need and how many applications each company accepts.
 

@@ -413,7 +413,16 @@ export default function BoardApp({ data }: { data: BoardData }) {
     <div className="app">
       <header className="topbar">
         <div className="brand">
-          <h1>Applications 2027</h1>
+          <h1 className="title">
+            <svg className="logo" viewBox="0 0 32 32" aria-hidden="true">
+              <rect width="32" height="32" rx="7" fill="#2240c4" />
+              <rect x="7" y="8" width="18" height="3.5" rx="1.75" fill="#fff" />
+              <rect x="7" y="14.25" width="13" height="3.5" rx="1.75" fill="#fff" fillOpacity=".72" />
+              <rect x="7" y="20.5" width="8" height="3.5" rx="1.75" fill="#fff" fillOpacity=".45" />
+              <circle cx="22.5" cy="22.25" r="3.25" fill="#5fe0a0" />
+            </svg>
+            Applications 2027
+          </h1>
           <nav className="nav" aria-label="Sections">
             <Link href="/visas">Visas</Link>
             <a href="/api/cv/quant" target="_blank" rel="noopener">

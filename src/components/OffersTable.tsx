@@ -226,8 +226,8 @@ export default function OffersTable({
                 </span>
               )}
               {!r.active && (
-                <span className="tag tag-closed" title={r.closedReason ? `Cerrada: ${r.closedReason}` : undefined}>
-                  {r.closedReason === GONE_REASON ? "Retirada" : "Cerrada"}
+                <span className="tag tag-closed" title={r.closedReason ? `Closed: ${r.closedReason}` : undefined}>
+                  {r.closedReason === GONE_REASON ? "Taken down" : "Closed"}
                 </span>
               )}
               {r.block ? (

@@ -60,7 +60,7 @@ const SKIP_CATEGORY = /hardware|product/i;
 
 async function simplifyLike(name: string, repo: string, kind: "intern" | "grad"): Promise<SourceResult> {
   const data = await httpJson<SimplifyListing[]>(`${RAW}/${repo}/dev/.github/scripts/listings.json`, { timeoutMs: 60000 });
-  if (!data) return { name, listings: [], error: "no se pudo descargar listings.json" };
+  if (!data) return { name, listings: [], error: "could not download listings.json" };
   const listings: RawListing[] = [];
   for (const x of data) {
     if (!x.url) continue;
@@ -151,7 +151,7 @@ async function speedyapply(): Promise<SourceResult> {
       });
     }
   }
-  return { name, listings, error: errors.length ? `faltan ${errors.join(", ")}` : undefined };
+  return { name, listings, error: errors.length ? `missing ${errors.join(", ")}` : undefined };
 }
 
 // ---------- Kadoa quant jobs
@@ -173,7 +173,7 @@ interface KadoaJob {
 async function kadoa(): Promise<SourceResult> {
   const name = "Kadoa quant";
   const data = await httpJson<KadoaJob[]>(`${RAW}/kadoa-org/quant-jobs/main/public/data/jobs.json`, { timeoutMs: 60000 });
-  if (!data) return { name, listings: [], error: "no se pudo descargar jobs.json" };
+  if (!data) return { name, listings: [], error: "could not download jobs.json" };
   return {
     name,
     listings: data

@@ -3,7 +3,6 @@ node_modules
 data/backups
 cv
 docs
-examples
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store

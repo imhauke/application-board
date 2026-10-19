@@ -217,7 +217,7 @@ export function PolicyPanel({
     setBusy(true);
     setErr(null);
     const r = await fetch(`/api/companies/${encodeURIComponent(company)}`, { method: "POST" });
-    if (!r.ok) setErr("No se pudo comprobar ahora");
+    if (!r.ok) setErr("Could not check right now");
     setBusy(false);
     router.refresh();
   };

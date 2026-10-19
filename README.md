@@ -30,14 +30,12 @@ Dark mode too:
 With Docker (Postgres + migrations + the app on http://localhost:8888):
 
 ```bash
-cp path/to/your-swe-cv.pdf cv/swe.pdf            # your two CVs (see cv/README.md)
+cp path/to/your-swe-cv.pdf cv/swe.pdf            # your CVs (see "Your CVs" below)
 cp path/to/your-quant-cv.pdf cv/quant.pdf
 docker compose up -d --build
 docker compose exec app npm run db:seed          # target companies and reference notes (first time only)
 docker compose exec app npm run crawl            # first search (afterwards, the "Search offers" button)
 ```
-
-To try it without your own CVs, use the examples: `cp examples/cv/*.pdf cv/`.
 
 For development outside Docker (port 3000), with the compose Postgres running (`docker compose up -d db migrate`):
 
@@ -54,12 +52,24 @@ npx tsx scripts/purge-ineligible.mts --dry       # how many stored offers are no
 
 ## Your CVs
 
-The board reads from the PDFs your experience (`Role @ Company Jun 2025 – Sep 2025`), projects, skills, languages (`Spanish (Native), English (C1)`) and graduation (`Expected graduation: June 2027`). The two CVs should be the same except for one project:
+The board parses your CVs: it extracts the text of each PDF (so it needs real text, not a scanned image) when it starts and again whenever a file changes. Everything it says about fit, experience, languages and graduation comes from there:
 
-- `cv/swe.pdf`: with a project **in production** (a deployed service or product, with users). Sent to SRE, infrastructure, backend, product and applied AI roles.
-- `cv/quant.pdf`: with a **low-level** project (a compiler, a kernel, systems work). Sent to compilers, embedded, C++, low latency and quant research/trading roles.
+- **Experience**: lines with an `@` and a period, such as `Software Engineer Intern @ Company  Jun 2025 – Sep 2025` (or `– Present`). It adds up the months; internships count apart from full-time work, for postings that ask for years of non-internship experience.
+- **Projects**: under a `PROJECTS` heading, a title line such as `Name – what it is`, followed by its bullet points.
+- **Skills**: the languages, frameworks and tools it recognises anywhere in the text (`src/lib/skills.ts`), compared with what each posting asks for.
+- **Languages**: under a `LANGUAGES` heading, such as `Spanish (Native), English (C1)`.
+- **Graduation**: a line such as `Expected graduation: June 2027`.
 
-`examples/cv/` has two examples (and their HTML) in the format it understands.
+Headings are lines in capitals (`EXPERIENCE`, `PROJECTS`, `LANGUAGES`).
+
+It is aimed at **SWE and quant** roles. If you want two different CVs, one for each, put them in `cv/` like this:
+
+- `cv/swe.pdf`: with a project **in production** (a deployed service or product, with users), for SRE, infrastructure, backend, product and applied AI roles.
+- `cv/quant.pdf`: the same CV with a **low-level** project instead (a compiler, a kernel, systems work), for compilers, embedded, C++, low-latency and quant research or trading roles.
+
+For each offer it then picks one of the two and explains why on the offer page.
+
+If you would rather have a single CV, you can change the code to unify everything into one: `src/lib/cv.ts` decides which PDFs are read (`CV_FILES` and `cvPath`) and `src/lib/cvChoice.ts` which one each offer gets (`chooseCv`). Without touching the code, putting the same PDF under both names also works; the suggested CV is then the same file either way.
 
 ## Assumptions
 
@@ -102,7 +112,6 @@ cv/                           ← your CVs (not committed)
 data/seed.json                ← target companies and reference notes
 db/                           ← Alembic: Postgres migrations (own Dockerfile)
 docs/screenshots/             ← screenshots in this README
-examples/cv/                  ← example CVs
 scripts/                      ← crawl, seed, reread, purge-ineligible
 src/
   app/                        ← / (board), /offers/[id], /visas, api/…

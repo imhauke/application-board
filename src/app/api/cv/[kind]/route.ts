@@ -5,7 +5,7 @@ import type { CvKind } from "@/lib/types";
 // Serves the PDF straight from cv/ (or CV_DIR): update the CV there and the board opens the new one.
 export async function GET(_req: Request, { params }: { params: Promise<{ kind: string }> }) {
   const { kind } = await params;
-  if (kind !== "quant" && kind !== "swe") return new Response("CV no encontrado", { status: 404 });
+  if (kind !== "quant" && kind !== "swe") return new Response("No such CV", { status: 404 });
   try {
     const pdf = await fs.readFile(cvPath(kind as CvKind));
     return new Response(pdf, {
@@ -16,6 +16,6 @@ export async function GET(_req: Request, { params }: { params: Promise<{ kind: s
       },
     });
   } catch {
-    return new Response(`No se encuentra ${CV_FILES[kind as CvKind]}`, { status: 404 });
+    return new Response(`${CV_FILES[kind as CvKind]} not found`, { status: 404 });
   }
 }

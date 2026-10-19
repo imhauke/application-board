@@ -86,7 +86,7 @@ function unionMonths(spans: [number, number][]): number {
   return cur ? total + cur[1] - cur[0] + 1 : total;
 }
 
-const LANG_ES: Record<string, string> = {
+const LANG_NAMES: Record<string, string> = {
   spanish: "Spanish", catalan: "Catalan", english: "English", italian: "Italian", french: "French", german: "German", portuguese: "Portuguese",
   dutch: "Dutch", chinese: "Chinese", mandarin: "Mandarin", japanese: "Japanese", korean: "Korean", russian: "Russian", arabic: "Arabic",
 };
@@ -149,7 +149,7 @@ export function parseCv(text: string): Omit<CvProfile, "kind" | "file" | "hash" 
     if (!m) continue;
     for (const name of m[1].split(/\s*(?:&|\/|\band\b|\by\b)\s*/i)) {
       const key = name.trim().toLowerCase();
-      if (key) languages.push({ name: LANG_ES[key] ?? name.trim(), level: levelOf(m[2]), raw: m[2].trim() });
+      if (key) languages.push({ name: LANG_NAMES[key] ?? name.trim(), level: levelOf(m[2]), raw: m[2].trim() });
     }
   }
 

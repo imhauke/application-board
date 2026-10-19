@@ -1,0 +1,11 @@
+node_modules
+.next
+data/backups
+cv
+docs
+examples
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+npm-debug.log*
+.git

@@ -1,0 +1,57 @@
+# Start (and rebuild after code changes):  docker compose up -d --build   → http://localhost:8888
+# Stop:                                    docker compose down            (the data stays in the pgdata volume)
+# First time, load companies and notes:    docker compose exec app npm run db:seed
+# Search offers from the terminal:         docker compose exec app npm run crawl
+# Migrations (Alembic):                    docker compose run --rm migrate
+# Postgres from your machine (psql…):      postgres://board:board@localhost:5434/board
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: application-board-db
+    environment:
+      POSTGRES_USER: board
+      POSTGRES_PASSWORD: board
+      POSTGRES_DB: board
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      # Only reachable from this machine
+      - "127.0.0.1:5434:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U board -d board"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+
+  migrate:
+    build: ./db
+    image: application-board-migrate:latest
+    environment:
+      DATABASE_URL: postgresql+psycopg://board:board@db:5432/board
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  app:
+    build: .
+    image: application-board:latest
+    container_name: application-board
+    environment:
+      DATABASE_URL: postgres://board:board@db:5432/board
+    ports:
+      - "8888:8888"
+    volumes:
+      # Your CVs (cv/swe.pdf and cv/quant.pdf) and the backups live in the project, not in the container
+      - ./cv:/app/cv:ro
+      - ./data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  pgdata:

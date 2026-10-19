@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+__pycache__/
+.env*
+
+# Your CVs and your data are not committed: only the company seed and the example CVs
+cv/*
+!cv/README.md
+data/*
+!data/seed.json

@@ -1,0 +1,2803 @@
+{
+  "companies": {
+    "Accenture": {
+      "name": "Accenture",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "Accenture"
+      ],
+      "onList": true
+    },
+    "Adobe": {
+      "name": "Adobe",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Affirm": {
+      "name": "Affirm",
+      "sector": "Fintech",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 9 of its 9 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Airbnb": {
+      "name": "Airbnb",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Akuna Capital": {
+      "name": "Akuna Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "akuna"
+      ],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": null,
+            "url": "https://www.akunacapital.com/careers/job/8175994/?gh_jid=8175994",
+            "kind": "none",
+            "quote": "Please note: If you apply to multiple roles, you may be asked to complete multiple coding challenges and interviews.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "AlphaGrep": {
+      "name": "AlphaGrep",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "AlphaGrep"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Amazon": {
+      "name": "Amazon",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "amazon web services",
+        "aws"
+      ],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": null,
+            "url": "https://amazon.jobs/content/en/faq/university-talent",
+            "kind": "none",
+            "quote": "Yes, you can apply to more than one role.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T12:05:43.795Z"
+      }
+    },
+    "Amplitude": {
+      "name": "Amplitude",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Anduril": {
+      "name": "Anduril",
+      "sector": "Autonomy/Robotics",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 9 of its 9 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Anthropic": {
+      "name": "Anthropic",
+      "sector": "AI",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Appian": {
+      "name": "Appian",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Apple": {
+      "name": "Apple",
+      "sector": "Big Tech",
+      "prestige": "S",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 13 of its 13 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Applied Intuition": {
+      "name": "Applied Intuition",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 9 of its 9 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "AQR Capital": {
+      "name": "AQR Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "aqr capital management",
+        "aqr"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 14 of its 15 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Aquatic": {
+      "name": "Aquatic",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Aquatic"
+      ],
+      "onList": false
+    },
+    "Arrowstreet Capital": {
+      "name": "Arrowstreet Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "arrowstreet"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Atlassian": {
+      "name": "Atlassian",
+      "sector": "Infra/Dev tools",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Axon": {
+      "name": "Axon",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Balyasny Asset Management": {
+      "name": "Balyasny Asset Management",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "balyasny",
+        "bam"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 14 of its 14 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Belvedere Trading": {
+      "name": "Belvedere Trading",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "belvedere"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Bloomberg": {
+      "name": "Bloomberg",
+      "sector": "Banking/Fin. data",
+      "prestige": "A",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Brevan Howard": {
+      "name": "Brevan Howard",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://wd3.myworkdaysite.com/recruiting/brevanhoward/BH_ExternalCareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Trading-Technology-Software-Engineer--New-York_JR101597",
+            "kind": "hard",
+            "quote": "Please note that you may only submit one application to the Summer Internship Program globally.",
+            "scope": "intern",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Bridgewater": {
+      "name": "Bridgewater",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "bridgewater associates"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "C3 AI": {
+      "name": "C3 AI",
+      "sector": "AI",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Capital One": {
+      "name": "Capital One",
+      "sector": "Banking/Fin. data",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 10 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "CFM": {
+      "name": "CFM",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "capital fund management",
+        "cfm"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Chalk": {
+      "name": "Chalk",
+      "sector": "Infra/Dev tools",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Cisco": {
+      "name": "Cisco",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "Cisco"
+      ],
+      "onList": true
+    },
+    "Citadel": {
+      "name": "Citadel",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [
+        "citadel securities",
+        "citadel"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 28 of its 30 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Clay": {
+      "name": "Clay",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Cloudflare": {
+      "name": "Cloudflare",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Coinbase": {
+      "name": "Coinbase",
+      "sector": "Fintech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 3,
+            "url": "https://boards.greenhouse.io/embed/job_app?token=8175459",
+            "kind": "hard",
+            "quote": "Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period.",
+            "scope": "all",
+            "windowDays": 180,
+            "windowLabel": "6 months"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Commure": {
+      "name": "Commure",
+      "sector": "Healthcare",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Crowdstrike": {
+      "name": "Crowdstrike",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Crusoe": {
+      "name": "Crusoe",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Cursor": {
+      "name": "Cursor",
+      "sector": "AI",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "D. E. Shaw": {
+      "name": "D. E. Shaw",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [
+        "de shaw",
+        "d e shaw",
+        "the de shaw group",
+        "deshaw"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Its portal groups several applications into an 'application bundle'.",
+        "rules": [
+          {
+            "max": null,
+            "url": "https://www.deshaw.com/careers",
+            "kind": "none",
+            "quote": "Students can visit our website to apply for any roles that interest them.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T12:05:43.795Z"
+      }
+    },
+    "Databricks": {
+      "name": "Databricks",
+      "sector": "Infra/Dev tools",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://boards.greenhouse.io/embed/job_app?token=8847738002",
+            "kind": "hard",
+            "quote": "We can only consider one application in 30 days.",
+            "scope": "intern",
+            "windowDays": 30,
+            "windowLabel": "30 days"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T12:05:43.795Z"
+      }
+    },
+    "Datadog": {
+      "name": "Datadog",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Decagon": {
+      "name": "Decagon",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Docusign": {
+      "name": "Docusign",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true
+    },
+    "DoorDash": {
+      "name": "DoorDash",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Draftkings": {
+      "name": "Draftkings",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [
+        "draftkings"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 7 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "DRW": {
+      "name": "DRW",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 9 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Duolingo": {
+      "name": "Duolingo",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "DV Trading": {
+      "name": "DV Trading",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 16 of its 16 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "ElevenLabs": {
+      "name": "ElevenLabs",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "ElevenLabs"
+      ],
+      "onList": true
+    },
+    "Engineers Gate": {
+      "name": "Engineers Gate",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Etched": {
+      "name": "Etched",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Everpure (Pure Storage)": {
+      "name": "Everpure (Pure Storage)",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "pure storage",
+        "everpure"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Exa": {
+      "name": "Exa",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Faire": {
+      "name": "Faire",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Figma": {
+      "name": "Figma",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 5,
+            "url": "https://boards.greenhouse.io/figma/jobs/6152695004",
+            "kind": "hard",
+            "quote": "Candidates may submit up to 5 applications during any rolling 30-day period.",
+            "scope": "all",
+            "windowDays": 30,
+            "windowLabel": "30 days"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Five Rings Capital": {
+      "name": "Five Rings Capital",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [
+        "five rings"
+      ],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349905008",
+            "kind": "soft",
+            "quote": "Applicants are able to apply to multiple positions, but we strongly encourage you to only apply to your top choice.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Flow Traders": {
+      "name": "Flow Traders",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "G-Research": {
+      "name": "G-Research",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://www.gresearch.com/vacancies/data-science-internship/",
+            "kind": "hard",
+            "quote": "Please only apply for one internship position, choosing the role that best matches your skills and interests.",
+            "scope": "intern",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Garda Capital Partners": {
+      "name": "Garda Capital Partners",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "garda capital",
+        "garda"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Geneva Trading": {
+      "name": "Geneva Trading",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Geneva Trading"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Glean": {
+      "name": "Glean",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true
+    },
+    "Goldman Sachs": {
+      "name": "Goldman Sachs",
+      "sector": "Banking/Fin. data",
+      "prestige": "A",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 4,
+            "url": "https://higher.gs.com/roles/182119",
+            "kind": "hard",
+            "quote": "Each applicant has the opportunity to apply to up to 4 separate business / location combinations in any given recruiting year.",
+            "scope": "grad",
+            "windowDays": null,
+            "windowLabel": "recruiting year"
+          },
+          {
+            "max": 4,
+            "url": "https://higher.gs.com/roles/170644",
+            "kind": "hard",
+            "quote": "Each applicant has the opportunity to apply to up to 4 separate business / location combinations in any given recruiting year.",
+            "scope": "intern",
+            "windowDays": null,
+            "windowLabel": "recruiting year"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Google": {
+      "name": "Google",
+      "sector": "Big Tech",
+      "prestige": "S",
+      "pay": 4,
+      "aliases": [
+        "alphabet",
+        "google deepmind"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Rule from Google's university recruiting notices; your application is considered for all related roles.",
+        "rules": [
+          {
+            "max": 3,
+            "url": "https://careers.google.com/stories/google-internship-faqs",
+            "kind": "hard",
+            "quote": "You can submit up to 3 applications every 30 days.",
+            "scope": "all",
+            "windowDays": 30,
+            "windowLabel": "30 days"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T12:05:43.795Z"
+      }
+    },
+    "Group One": {
+      "name": "Group One",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Group One"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "GSA Capital": {
+      "name": "GSA Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "gsa capital partners",
+        "gsa"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 3 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "GTS": {
+      "name": "GTS",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 3 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Harvey": {
+      "name": "Harvey",
+      "sector": "AI",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Headlands": {
+      "name": "Headlands",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [
+        "headlands technologies"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Hudson River Trading": {
+      "name": "Hudson River Trading",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [
+        "hrt",
+        "hudson river trading"
+      ],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://www.hudsonrivertrading.com/student-opportunities",
+            "kind": "hard",
+            "quote": "Please only apply to one job posting. You will have the opportunity to indicate if you are interested in other offices or roles in the application questions.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "IMC Trading": {
+      "name": "IMC Trading",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [
+        "imc",
+        "imc trading"
+      ],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": null,
+            "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4914883101",
+            "kind": "per-role",
+            "quote": "You may submit one application per role each year.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting year"
+          },
+          {
+            "max": null,
+            "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4914883101",
+            "kind": "none",
+            "quote": "Though you may apply to multiple roles, please note that each application will be evaluated based on the specific criteria established for that particular role.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Intuit": {
+      "name": "Intuit",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "IXL Learning": {
+      "name": "IXL Learning",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Jane Street": {
+      "name": "Jane Street",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": null,
+            "url": "https://www.janestreet.com/join-jane-street/interviewing/",
+            "kind": "linked",
+            "quote": "When we receive an application, we consider it for all open roles globally. … if you apply to one or multiple roles, the recruiter will consider you for all roles that you’re eligible for.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          },
+          {
+            "max": null,
+            "url": "https://www.janestreet.com/join-jane-street/interviewing/",
+            "kind": "cooldown",
+            "quote": "We usually recommend waiting to reapply for at least a year (in the case of current students).",
+            "scope": "all",
+            "windowDays": 365,
+            "windowLabel": "12 months"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Jump Trading": {
+      "name": "Jump Trading",
+      "sector": "Quant/Trading",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [
+        "jump trading group",
+        "jump"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 24 of its 24 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Kikoff": {
+      "name": "Kikoff",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Logitech": {
+      "name": "Logitech",
+      "sector": "Top company",
+      "prestige": "A",
+      "pay": 3,
+      "aliases": [
+        "Logitech"
+      ],
+      "onList": true
+    },
+    "Lombard Odier": {
+      "name": "Lombard Odier",
+      "sector": "Banking/Fin. data",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "Lombard Odier"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 6 of its 6 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-18T23:11:44.083Z"
+      }
+    },
+    "Lyft": {
+      "name": "Lyft",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Man Group": {
+      "name": "Man Group",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "man group",
+        "man ahl"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Maven Securities": {
+      "name": "Maven Securities",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "maven"
+      ],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8105020",
+            "kind": "hard",
+            "quote": "We accept one application per candidate, per recruitment cycle",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Mercor": {
+      "name": "Mercor",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Mercury": {
+      "name": "Mercury",
+      "sector": "Fintech",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Meta": {
+      "name": "Meta",
+      "sector": "Big Tech",
+      "prestige": "S",
+      "pay": 4,
+      "aliases": [
+        "meta platforms",
+        "facebook"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "None of its postings could be read (the site blocks automated reads).",
+        "rules": [],
+        "origin": "posting",
+        "status": "error",
+        "checkedAt": "2026-10-16T18:19:49.222Z"
+      }
+    },
+    "Microsoft": {
+      "name": "Microsoft",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 13 of its 18 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Millennium": {
+      "name": "Millennium",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "millennium management",
+        "millennium"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 11 of its 11 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Moloco": {
+      "name": "Moloco",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "MongoDB": {
+      "name": "MongoDB",
+      "sector": "Infra/Dev tools",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true
+    },
+    "Navan": {
+      "name": "Navan",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Netflix": {
+      "name": "Netflix",
+      "sector": "Big Tech",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true
+    },
+    "Nooks": {
+      "name": "Nooks",
+      "sector": "AI",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Notion": {
+      "name": "Notion",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 7 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Nuro": {
+      "name": "Nuro",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Nvidia": {
+      "name": "Nvidia",
+      "sector": "Big Tech",
+      "prestige": "S",
+      "pay": 4,
+      "aliases": [
+        "nvidia corporation"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 72 of its 75 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Old Mission Capital": {
+      "name": "Old Mission Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "old mission"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "OpenAI": {
+      "name": "OpenAI",
+      "sector": "AI",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Optiver": {
+      "name": "Optiver",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": null,
+            "url": "https://www.optiver.com/join-us/jobs/8561859002/?gh_jid=8561859002",
+            "kind": "cooldown",
+            "quote": "If you have completed an online assessment or interviewed for a technology graduate or internship role at any Optiver location in the past 8 months, please note that you are not yet eligible to reapply.",
+            "scope": "all",
+            "windowDays": 240,
+            "windowLabel": "8 months"
+          },
+          {
+            "max": null,
+            "url": "https://www.optiver.com/join-us/jobs/trading/amsterdam/graduate-equity-analyst-2027-start/",
+            "kind": "per-role",
+            "quote": "We accept one application per role per year.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting year"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Oracle": {
+      "name": "Oracle",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Otter.ai": {
+      "name": "Otter.ai",
+      "sector": "AI",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Palantir": {
+      "name": "Palantir",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Palo Alto Networks": {
+      "name": "Palo Alto Networks",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "PDT Partners": {
+      "name": "PDT Partners",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Perplexity": {
+      "name": "Perplexity",
+      "sector": "AI",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Persona": {
+      "name": "Persona",
+      "sector": "Fintech",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Pinterest": {
+      "name": "Pinterest",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8138090",
+            "kind": "hard",
+            "quote": "Please only apply once within the USA or Canada as multiple applications may delay our recruitment process.",
+            "scope": "intern",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          },
+          {
+            "max": null,
+            "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8140389",
+            "kind": "linked",
+            "quote": "By applying to this role, you will be considered for multiple roles open across our various data science teams.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "Point72": {
+      "name": "Point72",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "point72 asset management"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 9 of its 10 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "QRT": {
+      "name": "QRT",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "qube research technologies",
+        "qube research and technologies",
+        "qube rt",
+        "qube rt qrt",
+        "qube"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Quantbot": {
+      "name": "Quantbot",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "quantbot technologies"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Quantbox": {
+      "name": "Quantbox",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Quantbox"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Quantic": {
+      "name": "Quantic",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Quantic"
+      ],
+      "onList": false
+    },
+    "Ramp": {
+      "name": "Ramp",
+      "sector": "Fintech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true
+    },
+    "Remitly": {
+      "name": "Remitly",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Replit": {
+      "name": "Replit",
+      "sector": "Infra/Dev tools",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Rippling": {
+      "name": "Rippling",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Robinhood": {
+      "name": "Robinhood",
+      "sector": "Fintech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Roblox": {
+      "name": "Roblox",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 9 of its 9 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Roche": {
+      "name": "Roche",
+      "sector": "Top company",
+      "prestige": "A",
+      "pay": 3,
+      "aliases": [
+        "Roche"
+      ],
+      "onList": true
+    },
+    "Roku": {
+      "name": "Roku",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Rubrik": {
+      "name": "Rubrik",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Samsara": {
+      "name": "Samsara",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Scale AI": {
+      "name": "Scale AI",
+      "sector": "AI",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 3 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Schonfeld": {
+      "name": "Schonfeld",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "schonfeld strategic advisors",
+        "schonfeld"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 11 of its 11 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "SeatGeek": {
+      "name": "SeatGeek",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Seven Research": {
+      "name": "Seven Research",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Seven Research"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Shopify": {
+      "name": "Shopify",
+      "sector": "SaaS",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Sierra": {
+      "name": "Sierra",
+      "sector": "AI",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Sig": {
+      "name": "Sig",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "susquehanna",
+        "susquehanna sig",
+        "susquehanna international group",
+        "susquehanna international",
+        "sig"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 53 of its 55 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Sigma Computing": {
+      "name": "Sigma Computing",
+      "sector": "Infra/Dev tools",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Snowflake": {
+      "name": "Snowflake",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Sonar": {
+      "name": "Sonar",
+      "sector": "Other",
+      "prestige": "C",
+      "pay": 2,
+      "aliases": [
+        "Sonar"
+      ],
+      "onList": true
+    },
+    "SpaceX": {
+      "name": "SpaceX",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 21 of its 21 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Square": {
+      "name": "Square",
+      "sector": "Fintech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "block",
+        "square"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Squarepoint Capital": {
+      "name": "Squarepoint Capital",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://www.squarepoint-capital.com/opportunity-details?id=6040910",
+            "kind": "hard",
+            "quote": "&lt;p&gt;&lt;strong&gt;Please only apply to the one job you feel best fits your skillset and experience.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "StackAdapt": {
+      "name": "StackAdapt",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true
+    },
+    "Stripe": {
+      "name": "Stripe",
+      "sector": "Fintech",
+      "prestige": "S",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 6 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Sunday Robotics": {
+      "name": "Sunday Robotics",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Superhuman (Grammarly)": {
+      "name": "Superhuman (Grammarly)",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "grammarly",
+        "superhuman"
+      ],
+      "onList": true
+    },
+    "Tesla": {
+      "name": "Tesla",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true
+    },
+    "TikTok": {
+      "name": "TikTok",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [
+        "bytedance",
+        "tiktok"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Periods: January-June and July-December. Includes ByteDance and its subsidiaries worldwide. Does not count for PhD or Project Intern roles.",
+        "rules": [
+          {
+            "max": 2,
+            "url": "https://lifeattiktok.com/earlycareers/faq",
+            "kind": "hard",
+            "quote": "You may apply for up to two Early Career positions per program within each application period.",
+            "scope": "intern",
+            "windowDays": 182,
+            "windowLabel": "semester"
+          },
+          {
+            "max": 2,
+            "url": "https://lifeattiktok.com/earlycareers/faq",
+            "kind": "hard",
+            "quote": "You may apply for up to two Early Career positions per program within each application period.",
+            "scope": "grad",
+            "windowDays": 182,
+            "windowLabel": "semester"
+          },
+          {
+            "max": 2,
+            "url": "https://jobs.bytedance.com/en/position/7667267464923171077/detail",
+            "kind": "hard",
+            "quote": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "faq",
+        "status": "found",
+        "checkedAt": "2026-10-16T12:05:43.795Z"
+      }
+    },
+    "Together AI": {
+      "name": "Together AI",
+      "sector": "AI",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 5 of its 5 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Tower Research Capital": {
+      "name": "Tower Research Capital",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [
+        "tower research",
+        "tower"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 16 of its 16 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "TransMarket Group": {
+      "name": "TransMarket Group",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "TransMarket Group"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 6 of its 6 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Trexquant": {
+      "name": "Trexquant",
+      "sector": "Quant/Trading",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [
+        "trexquant investment"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 7 of its 7 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Twitch": {
+      "name": "Twitch",
+      "sector": "Big Tech",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 3 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Two Sigma": {
+      "name": "Two Sigma",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [
+        "two sigma investments",
+        "two sigma"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 8 of its 8 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Uber": {
+      "name": "Uber",
+      "sector": "Big Tech",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 3 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "UBS": {
+      "name": "UBS",
+      "sector": "Banking/Fin. data",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T14:52:14.170Z"
+      }
+    },
+    "Upstart": {
+      "name": "Upstart",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Valon Mortgage": {
+      "name": "Valon Mortgage",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Vercel": {
+      "name": "Vercel",
+      "sector": "Infra/Dev tools",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true
+    },
+    "Verition": {
+      "name": "Verition",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Verition"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Verkada": {
+      "name": "Verkada",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 7 of its 7 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Virtu": {
+      "name": "Virtu",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 10 of its 10 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Visa": {
+      "name": "Visa",
+      "sector": "Banking/Fin. data",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Voleon": {
+      "name": "Voleon",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "the voleon group",
+        "voleon"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Walleye Capital": {
+      "name": "Walleye Capital",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "Walleye Capital"
+      ],
+      "onList": false
+    },
+    "Waymo": {
+      "name": "Waymo",
+      "sector": "Autonomy/Robotics",
+      "prestige": "A",
+      "pay": 4,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 20 of its 20 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Whatnot": {
+      "name": "Whatnot",
+      "sector": "SaaS",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Wintermute": {
+      "name": "Wintermute",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 4,
+      "aliases": [
+        "wintermute trading"
+      ],
+      "onList": false,
+      "policy": {
+        "note": "Read 4 of its 4 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Wolverine": {
+      "name": "Wolverine",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [
+        "wolverine trading",
+        "wolverine"
+      ],
+      "onList": false,
+      "policy": {
+        "rules": [
+          {
+            "max": 1,
+            "url": "https://careers.wolve.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6",
+            "kind": "hard",
+            "quote": "Candidates should apply to only one posting per recruiting cycle.",
+            "scope": "all",
+            "windowDays": null,
+            "windowLabel": "recruiting season"
+          }
+        ],
+        "origin": "posting",
+        "status": "found",
+        "checkedAt": "2026-10-16T17:56:59.053Z"
+      }
+    },
+    "WorldQuant": {
+      "name": "WorldQuant",
+      "sector": "Quant/Trading",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": false,
+      "policy": {
+        "note": "Read 14 of its 14 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "xAI": {
+      "name": "xAI",
+      "sector": "AI",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 2 of its 2 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "XTX Markets": {
+      "name": "XTX Markets",
+      "sector": "Quant/Trading",
+      "prestige": "A",
+      "pay": 5,
+      "aliases": [
+        "xtx"
+      ],
+      "onList": false
+    },
+    "Zip HQ": {
+      "name": "Zip HQ",
+      "sector": "Fintech",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [
+        "zip"
+      ],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "ZipRecruiter": {
+      "name": "ZipRecruiter",
+      "sector": "SaaS",
+      "prestige": "C",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 1 of its 1 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    },
+    "Zoox": {
+      "name": "Zoox",
+      "sector": "Autonomy/Robotics",
+      "prestige": "B",
+      "pay": 3,
+      "aliases": [],
+      "onList": true,
+      "policy": {
+        "note": "Read 10 of its 10 postings: none mentions an application limit.",
+        "rules": [],
+        "origin": "posting",
+        "status": "none",
+        "checkedAt": "2026-10-16T17:55:06.168Z"
+      }
+    }
+  },
+  "reference": {
+    "regions": [
+      "Zurich",
+      "London",
+      "NY",
+      "Hong Kong",
+      "Europe (other)",
+      "Remote EU",
+      "Remote US",
+      "USA (other)",
+      "Canada",
+      "Asia/Oceania"
+    ],
+    "cvReasons": {
+      "C-sys": "Robotics, defence or security: they look for a systems profile.",
+      "C-bank": "Banks work a lot in Java and systems: the low-level project is a good signal.",
+      "C-role": "Systems, infra or low-level role: the low-level project weighs more than a web app.",
+      "M-role": "Product, full-stack or AI role: the production project fits directly.",
+      "C-infra": "Infrastructure or tooling company: the low-level project fits their stack.",
+      "C-quant": "Quant firms value CS fundamentals: a low-level project (a compiler, systems) stands out.",
+      "C-bigtech": "Big tech screens on CS fundamentals: the low-level project stands out more than another web project.",
+      "M-product": "Product company: the production project shows you ship a complete product."
+    },
+    "interviewNotes": [
+      "LeetCode medium/hard in every technical round. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "Levelled CodeSignal OA (a system that keeps growing) and practical coding interviews.",
+      "HackerRank OA and DSA; SRE and Trading Systems roles ask about Linux and networking.",
+      "Maths, probability, statistics and mental arithmetic. Some roles add a little coding.",
+      "\"Machine coding\": building a small system live.",
+      "OA and LeetCode-style DSA interviews (medium).",
+      "DSA interviews plus domain questions.",
+      "DSA coding rounds and a \"decomposition\" round (designing a product).",
+      "DSA coding rounds and a \"decomposition\" round (designing a product). For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "OA, LeetCode and quick reasoning tests.",
+      "HackerRank OA and LeetCode-style DSA interviews.",
+      "HackerRank OA with C++ and DSA.",
+      "Open-ended algorithmic problems that get harder. Not literal LeetCode, but prepared the same way.",
+      "OA and DSA with some practical coding.",
+      "SQL, statistics and product cases; sometimes a little Python.",
+      "Product companies and startups tend to do practical coding rather than LeetCode.",
+      "LeetCode medium/hard in every technical round.",
+      "Practical, realistic coding (building or debugging something) rather than LeetCode puzzles.",
+      "LeetCode-style DSA plus questions from the team's domain (C/C++, systems).",
+      "OA and LeetCode medium/hard; sometimes concurrency.",
+      "LeetCode-style DSA interviews (medium/hard). For SRE roles they add Linux, networking and troubleshooting.",
+      "OA and LeetCode-style DSA interviews (medium). For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "HackerRank-style OA and DSA interviews, the usual at quant firms.",
+      "Practical coding: integrating an API, debugging real code (\"bug squash\"). Little LeetCode.",
+      "OA with 2 LeetCode problems plus Leadership Principles questions.",
+      "Levelled CodeSignal OA and practical coding.",
+      "A mix of LeetCode and practical coding problems.",
+      "OA and LeetCode-style DSA interviews.",
+      "Two LeetCode medium problems per round, with little time.",
+      "OA and LeetCode-style DSA interviews. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "OA (Codility/HackerRank) and LeetCode medium DSA rounds.",
+      "Two LeetCode medium problems per round, with little time. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "HackerRank OA and LeetCode medium/hard; C++ and systems.",
+      "DSA plus Linux, systems and C++ depending on the role.",
+      "OA and LeetCode with in-depth C++/Python.",
+      "HackerRank OA (2 LeetCode problems) and a superday with DSA.",
+      "LeetCode-style DSA plus questions from the team's domain (C/C++, systems). For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "Practical pair programming.",
+      "Product companies and startups tend to do practical coding rather than LeetCode. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "HackerRank OA and LeetCode-style DSA interviews. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "OA and DSA with some practical coding. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "OA (Codility/HackerRank) and LeetCode medium DSA rounds. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "Building a small feature live. Little LeetCode.",
+      "Practical, realistic coding (building or debugging something) rather than LeetCode puzzles. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "DSA interviews plus domain questions. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "HackerRank-style OA and DSA interviews, the usual at quant firms. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "OA and DSA with CS fundamentals.",
+      "OA and DSA with CS fundamentals. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "Open-ended algorithmic problems that get harder. Not literal LeetCode, but prepared the same way. For SRE and infra roles they add Linux, networking and troubleshooting.",
+      "Classic LeetCode (medium) in two technical rounds.",
+      "OA (HackerRank/Codility) and light technical interviews."
+    ],
+    "eligibilityNotes": [
+      "In the US, summer 2027 internships usually require graduating in Dec 2027 or later: compare it with your graduation date.",
+      "In Europe/Asia being in your final year is usually enough, but check they do not require you to stay enrolled over the summer.",
+      "It asks for (or prefers) a master's. Check whether they accept a bachelor's.",
+      "Off-cycle: it fits if it starts before you graduate or if they accept recent graduates.",
+      "New grad role: it fits if you graduate in 2027.",
+      "2026 intake: it may not fit you; look for the 2027 edition.",
+      "Google labels it \"Early career\"; it asks for ~1 year of experience (previous experience counts, long internships too).",
+      "Final year of the degree: eligible.",
+      "A format for mid-degree students (it does not fit if you graduate in 2027).",
+      "Meant for people graduating in 2028."
+    ]
+  }
+}
